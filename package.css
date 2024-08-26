@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.heading h2{
+    display: flex;
+    justify-content: center;
+
+}
+a:hover{
+    background-color: rgb(122, 143, 152);
+    padding: 5px;
+}
+body {
+    background-color: #FFF9C4;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav div{
+    margin-left: 2%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.placeimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2000px;
+}
+.img{
+    width: 500px;
+    height: 200px;;
+}
+.first-child {
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border: 2px;
+    border-radius: 10px;
+    border-style:solid;
+    box-sizing:border-box;
+    padding: 10px;
+    padding-left: 5px;
+    
+}
+.first-child button{
+    border: none;
+    margin-left: 30px;
+}
+.first-child button:hover{
+    background-color: grey;
+    color: white;
+    border: none;
+}
+
+.offer {
+    margin-top: 100px;
+}
+    
+img {
+    height: 200px;
+    width: 300px;
+}
+
+p {
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+    margin-bottom: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: rgb(79, 50, 205);
+    color: rgb(247, 244, 244);
+    border: none;
+    cursor: pointer;
+  }
+li{
+    font-size: 20px;
+}
+
+
+
+
+.hero{
+    display: flex;
+    list-style: none;
+    color: #080707;
+    gap: 2rem;
+    padding-left: 800px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 1%;
+    
+  }
+  .hero,a{
+    text-decoration: none;
+  }

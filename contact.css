@@ -1,0 +1,76 @@
+* body{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHCAcHBwcIBwcHCAoHBgcHCA8ICQcKFREiFiARExMYHSggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFg0NFSsZFR04KysrKys3LSsrKysrKysrKysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAGhABAQADAQEAAAAAAAAAAAAAAAERMWFBEv/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREh/9oADAMBAAIRAxEAPwDsCoNO6gCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVBQAAAFABRFEABAAAAAAAAAAAAAAAAAAAAAEAAGioqAAAAAoACoogqRRAAQAAAAAAAAAAAAAAAABBRKqUWAApUWoAAABAUABUUQipFEFRREAAAARUFAAEVBQAAAVFm4izcCtIqDAlVKNQAFKioAAAACgAKiiEVIogqKIgAAAoioAAAioKAAACos3EWbgVpFQZEqpRYACiKgAAAAKAAqKIRUiiCooiUAAAURUAAARUFAAABUWbiLNwK0ioMiVUosABSotQAAAAFAAVFEIqRRBUURAAABRFQAABFQUAAAFRZuIs3ArSKgyJVSigAoi1AAAAAUABUUQipFEFRREoUAAARUFAAEVBQAAAVFm4izcCtIqDAlVKNQAFEWoAAAACgAKiiEVIogAIAAAAGAAwY6AGOpjqgqY6Y6oHUx0x1QNqfPSTHqgbRFQBKqUWAAoioAAAACgAKiiAAgAAAAAAAAAAAAAAAAAAAAlUBABoqKgAAAKAAIogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCoAFRUFAAUAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFAH/9k=");
+    background-size: cover;
+   
+}
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(243, 239, 239);
+    
+
+  }
+  a:hover {
+    background-color: rgb(207, 210, 222);
+    padding: 5px;
+  }
+ul {
+    display: flex;
+    list-style: none;
+    color: #080707;
+    gap: 3rem;
+    padding-left: 750px;
+    right: 0;
+    padding-right: 15px;
+    top: 4%;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  ul, a {
+    text-decoration: none;
+  }
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #e0ba9d;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-info, .map, .social-media {
+    margin-top: 30px;
+    text-align:center;
+}
+
+.contact-info p, .map h2, .social-media, h2 {
+    margin: 10px 0;
+    text-align:center;
+}
+.contact{
+    display:block;
+    position: relative;
+}
